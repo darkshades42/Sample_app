@@ -19,9 +19,7 @@ describe PagesController do
     end
   end
 
-  it "should have a non-blank body" do
-    get 'home'
-    response.body.should_not =~ <body>\s*<\/body>
+ 
 
   describe "GET 'contact'" do
     it "should be successful" do
